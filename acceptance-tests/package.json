@@ -1,0 +1,10 @@
+{
+  "name": "bookora-acceptance-tests",
+  "private": true,
+  "scripts": {
+    "validate:gherkin": "cucumber-js --dry-run --format summary"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "13.3.0"
+  }
+}
